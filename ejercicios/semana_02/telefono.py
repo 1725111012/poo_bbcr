@@ -1,5 +1,5 @@
 class Telefono:
-    def__init__(self, botones, resolucion_pantalla, procesador, memoria_ram, camara, tipo_area_carga, marca, almacenamiento, bateria, sistema_operativo):
+    def __init__(self, botones, resolucion_pantalla, procesador, memoria_ram, camara, tipo_area_carga, marca, almacenamiento, bateria, sistema_operativo):
   
     self.botones = botones
     self.resolucion_pantalla = resolucion_pantalla
