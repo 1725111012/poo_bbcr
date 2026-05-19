@@ -34,5 +34,5 @@ def lgrabar (self):
 def comunicar (self): 
   print ("Comunicarse en llamada")
 
-unideh = Universidad("Bloquear/Desbloquear, lector de huella, subir/bajar volumen, captura de pantalla", "720 x 1604 Pixeles HD+", "Qualcomm Snapdragon 6s 4G Gen 1, 8 núcleos", 
+oppo = Telefono("Bloquear/Desbloquear, lector de huella, subir/bajar volumen, captura de pantalla", "720 x 1604 Pixeles HD+", "Qualcomm Snapdragon 6s 4G Gen 1, 8 núcleos", 
                      "8GB LPDDR4x", "50MP F/1.8, 8MP F/2.0", "Tipo C", "Oppo", "256 GB", "5800mAh", "ColorOs 15.0, basado en Android 15")
