@@ -1,5 +1,5 @@
 class LibroBiblioteca:
-  def __init__(self, titulo, autor, tipo_letra, agradecimientos, tipo_portada, empresa_edicion, numero_paginas, introduccion, imagenes, ano_publicacion)
+  def __init__(self, titulo, autor, tipo_letra, agradecimientos, tipo_portada, empresa_edicion, numero_paginas, introduccion, imagenes, ano_publicacion):
     self.titulo = titulo 
     self.autor = autor 
     self.tipo_letra = tipo_letra 
@@ -11,16 +11,16 @@ class LibroBiblioteca:
     self.imagenes = imagenes 
     self.ano_publicacion = ano_publicacion 
      
-    print(":Título del libro {self.titulo}")
-    print(":Autor {self.autor}")
-    print(":Tipo de letra {self.tipo_letra}")
-    print(":Agradecimientos {self.agradecimientos}")
-    print(":Tipo de portada {self.tipo_portada}")
-    print(":Empresa de edición {self.empresa_edicion}")
-    print(":Número de páginas {self.numero_paginas}")
-    print(":Introducción {self.introduccion}")
-    print(":Imágenes {self.imagenes}")
-    print(":Año de publicación {self.ano_publicacion}")
+    print("Título del libro: {self.titulo}")
+    print("Autor: {self.autor}")
+    print("Tipo de letra: {self.tipo_letra}")
+    print("Agradecimientos: {self.agradecimientos}")
+    print("Tipo de portada: {self.tipo_portada}")
+    print("Empresa de edición: {self.empresa_edicion}")
+    print("Número de páginas: {self.numero_paginas}")
+    print("Introducción: {self.introduccion}")
+    print("Imágenes: {self.imagenes}")
+    print("Año de publicación: {self.ano_publicacion}")
     
 def leer (self): 
     print ("Leer libro")
