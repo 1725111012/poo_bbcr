@@ -39,3 +39,27 @@ Sincroniza los cambios realizados y los repositorios.
 ````shell
 git push -u origin main
 ````
+
+## 5. Agregar Documentación a los métodos
+
+Agregar un **Docstring** a los métodos generados
+
+````shell
+1. En la documentación, se pone primeramente una descripción de lo que hace el código o ese pedazo de código. 
+2. Después de ello, se pone los tipos de variables que se usaron y para que se usaron.
+3. La tercera parte, dice si va a regresar algo el código hasta el final.
+        """
+        Este método recibe dos variables enteras, las suma y regresa
+        el resultado de la suma
+
+        Args:
+
+        variable_uno:int - Primer número entero
+        variable_dos:int - Segundo número entero
+
+        Return:
+
+        suma : int - Suma de los dos números enteros
+        """
+*Argos: Abreviación de “Argumentos”
+````
