@@ -23,5 +23,22 @@ class Universidad:
   print("Cantidad de salones: {self.cantidad_salones}")
   print("Rector: {self.rector}")
 
-unideh = Universidad("logo.jpg", "Ing. Software, Turismo, Gestión Empresarial", "San Miguel", "CADU", "Virtual", "Biblioteca Virtual", "Santa Catarina", None, None, "Octavio Castillo")
-                     
+def enseñar (self):
+  print ("Enseñar en una universidad")
+def aprender (self):
+  print ("Se aprende en una universidad")
+def estudiar (self):
+  print ("Estudiar en la universidad")
+def capacitar (self):
+  print ("Se capacita en una universidad")
+def contratar (self):
+  print ("Se contrata en la universidad para cualquier puestpo")
+
+unideh = Universidad("logo.jpg", "Ing. Software, Turismo, Gestión Empresarial", "San Miguel", "CADU", 
+"Virtual", "Biblioteca Virtual", "Santa Catarina", None, None, "Octavio Castillo")
+
+unideh.enseñar()
+unideh.aprender()
+unideh.estudiar()
+unideh.capacitar()
+unideh.contratar()                    
