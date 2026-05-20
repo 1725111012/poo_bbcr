@@ -1,44 +1,43 @@
-class Mesa:
-  def __init__(self, soporte, superficie_plana, color, forma_base, material, detalles, peso, ensamble, ancho, dureza):
+class Silla:
+  def __init__(self, respaldo, asiento, material, patas, altura, peso, capacidad_carga, color, descansabrazos, estilo):
  
-        self.soporte = soporte
-        self.superficie_plana = superficie_plana
-        self.color = color
-        self.forma_base = forma_base
+        self.respaldo = respaldo
+        self.asiento = asiento
         self.material = material
-        self.detalles = detalles
+        self.patas = patas
+        self.altura = altura
         self.peso = peso
-        self.ensamble = ensamble
-        self.ancho = ancho
-        self.dureza = dureza
+        self.capacidad_carga = capacidad_carga
+        self.color = color
+        self.descansabrazos = descansabrazos
+        self.estilo = estilo
         
-        print("Soporte de la mesa: {self.soporte}")
-        print("Tipo de superficie de la mesa y tamaño: {self.superficie_plana}")
-        print("Color de la mesa: {self.color}")
-        print("Forma de la base de la mesa: {self.forma_base}")
-        print("Material utilizado para la mesa: {self.material}")
-        print("Detalles de la mesa: {self.detalles}")
-        print("Peso de la mesa: {self.peso}")
-        print("Tipo de ensamblaje: {self.ensamble}")
-        print("Tamaño del ancho de la mesa: {self.ancho}")
-        print("Cantidad que soporta la mesa: {self.dureza}")
+        print("La silla tienen respaldo: {self.respaldo}")
+        print("La silla es un asiento: {self.asiento}")
+        print("Material del que se hizo la silla: {self.material}")
+        print("Total de patas: {self.patas}")
+        print("Altura de la silla: {self.altura}")
+        print("Peso de la silla: {self.peso}")
+        print("Capacidad de carga de la silla: {self.capacidad_carga}")
+        print("Color de la silla: {self.color}")
+        print("¿Usa descansabrazos?: {self.descansabrazos}")
+        print("Tipo de estilo de la silla: {self.estilo}")
 
-        def limpiar (self):
-            print ("Limpiar la mesa")
+        def sentarse (self):
+            print ("Te puedes sentar en una silla")
+        def mover (self):
+            print ("Mover la silla")
+        def levantar (self):
+            print ("Levanta la silla")
+        def acomodar (self):
+            print ("Acomodar la silla, por favor")
         def prestar (self):
-            print ("Prestar la mesa")
-        def cargar (self):
-            print ("Cargar la mesa")
-        def usar (self):
-            print ("Usar/usando la mesa")
-        def inclinar (self):
-            print ("Se puede inclinar la mesa")
+            print ("Prestame la silla, por favor")
 
-mesa_oficina = Mesa("4 patas metálicas", "Tablero rectangular de 120 x 160 cm", "Gris", "Forma de H", "Estrucutra de acero", 
-                    "Portavasos y ganchos para bolsas", "25 y 45 kg", "Con tornillos", "De 60 a 80 cm", "Soporta de 30 a 50 kg")
+silla_giratoria = Silla("De malla", "Alconchonada", "Tapiz en tela", "Base de 5 ruedas", "Ajustable", "12 kilogramos", "150 kilogramos", "Negro", "Fijos", "Gamer")
 
-mesa_oficina.limpiar()
-mesa_oficina.prestar()
-mesa_oficina.cargar()
-mesa_oficina.usar()
-mesa_oficina.inclinar()
+silla_giratoria.sentarse()
+silla_giratoria.mover()
+silla_giratoria.levantar()
+silla_giratoria.acomodar()
+silla_giratoria.prestar()
