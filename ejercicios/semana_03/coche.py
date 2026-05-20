@@ -23,7 +23,6 @@ class Coche:
         print("Color: {self.capacidad_tanque}")
         print("Automática o estándar: {self.color}")
 
-
         def manejar (self):
             print ("Manejar el coche")
         def chocar (self):
